@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest news updates from around the world - politics, business, technology, sports and more">
+    <meta name="keywords" content="news, breaking news, latest news, world news, politics, business, technology">
+    <meta name="author" content="NewsPortal">
+    <meta property="og:title" content="NewsPortal - Latest Breaking News">
+    <meta property="og:description" content="Get the latest breaking news and updates from around the world">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yournewsportal.com">
+    <meta property="og:image" content="https://www.yournewsportal.com/images/logo.png">
+    <title>NewsPortal - Latest Breaking News</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar with Date and Social Links -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="date">June 21, 2025</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header with Logo and Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="NewsPortal Logo">
+                    <h1>NewsPortal</h1>
+                </a>
+            </div>
+            
+            <!-- Responsive Menu Button -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Main Navigation -->
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="category.html?cat=politics">Politics</a></li>
+                    <li><a href="category.html?cat=business">Business</a></li>
+                    <li><a href="category.html?cat=technology">Technology</a></li>
+                    <li><a href="category.html?cat=sports">Sports</a></li>
+                    <li><a href="category.html?cat=entertainment">Entertainment</a></li>
+                    <li><a href="category.html?cat=health">Health</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Search Bar -->
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news">
+        <div class="container">
+            <span class="breaking-label">Breaking:</span>
+            <div class="ticker">
+                <ul>
+                    <li><a href="#">Global summit addresses climate change concerns as temperatures soar</a></li>
+                    <li><a href="#">Tech giant unveils revolutionary AI assistant that understands human emotions</a></li>
+                    <li><a href="#">Stock markets reach record highs amid economic recovery signs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Featured Post (Hero Section) -->
+            <section class="featured-post">
+                <article class="hero-post">
+                    <div class="post-image">
+                        <img src="images/featured-1.jpg" alt="Global leaders at climate summit">
+                        <span class="category-label politics">Politics</span>
+                    </div>
+                    <div class="post-content">
+                        <h2><a href="article.html">Global Leaders Agree on Historic Climate Accord at Emergency Summit</a></h2>
+                        <p class="post-meta">By <a href="#">John Smith</a> | June 20, 2025 | <i class="far fa-comment"></i> 42 Comments</p>
+                        <p class="excerpt">World leaders have reached a landmark agreement to accelerate carbon reduction targets following an emergency climate summit called in response to devastating heatwaves across three continents...</p>
+                        <a href="article.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Ad Banner (Top) -->
+            <div class="ad-banner top-banner">
+                <!-- Google AdSense or other ad code would go here -->
+                <img src="images/ad-banner-1.jpg" alt="Advertisement">
+            </div>
+
+            <!-- News Grid -->
+            <section class="news-grid">
+                <div class="section-header">
+                    <h2>Latest News</h2>
+                    <div class="view-all"><a href="#">View All</a></div>
+                </div>
+                
+                <div class="grid-container">
+                    <!-- Article 1 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-1.jpg" alt="Tech innovation">
+                            <span class="category-label technology">Technology</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">New AI System Can Predict Health Issues Before Symptoms Appear</a></h3>
+                            <p class="post-meta">By <a href="#">Sarah Johnson</a> | June 19, 2025</p>
+                            <p class="excerpt">Researchers have developed an artificial intelligence platform that analyzes subtle physiological changes to predict potential health problems up to two weeks before...</p>
+                        </div>
+                    </article>
+                    
+                    <!-- Article 2 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-2.jpg" alt="Stock market">
+                            <span class="category-label business">Business</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">Major Merger Creates World's Largest Renewable Energy Company</a></h3>
+                            <p class="post-meta">By <a href="#">Michael Chen</a> | June 19, 2025</p>
+                            <p class="excerpt">Two industry giants in the renewable energy sector have announced a $78 billion merger that will create the world's largest clean energy provider, signaling a major shift...</p>
+                        </div>
+                    </article>
+                    
+                    <!-- Article 3 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-3.jpg" alt="Sports event">
+                            <span class="category-label sports">Sports</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">Underdog Team Stuns Champions in Historic Finals Upset</a></h3>
+                            <p class="post-meta">By <a href="#">David Wilson</a> | June 18, 2025</p>
+                            <p class="excerpt">In what analysts are calling the greatest upset in sports history, the underfunded regional team defeated the defending champions with a last-minute play that...</p>
+                        </div>
+                    </article>
+                    
+                    <!-- Article 4 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-4.jpg" alt="Health research">
+                            <span class="category-label health">Health</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">Breakthrough Study Links Gut Bacteria to Reduced Anxiety</a></h3>
+                            <p class="post-meta">By <a href="#">Emma Rodriguez</a> | June 18, 2025</p>
+                            <p class="excerpt">A comprehensive 5-year study has identified specific strains of gut bacteria that appear to significantly reduce symptoms of anxiety and depression, opening new...</p>
+                        </div>
+                    </article>
+                    
+                    <!-- Article 5 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-5.jpg" alt="Entertainment news">
+                            <span class="category-label entertainment">Entertainment</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">Streaming Platform Announces Revolutionary Interactive Story Format</a></h3>
+                            <p class="post-meta">By <a href="#">Lisa Thompson</a> | June 17, 2025</p>
+                            <p class="excerpt">A major streaming service has unveiled a new content format that allows viewers to influence story outcomes in real-time through AI-driven narrative branching, blurring...</p>
+                        </div>
+                    </article>
+                    
+                    <!-- Article 6 -->
+                    <article class="news-card">
+                        <div class="card-image">
+                            <img src="images/news-6.jpg" alt="Political event">
+                            <span class="category-label politics">Politics</span>
+                        </div>
+                        <div class="card-content">
+                            <h3><a href="article.html">New Legislation Aims to Regulate AI Development and Deployment</a></h3>
+                            <p class="post-meta">By <a href="#">Robert James</a> | June 17, 2025</p>
+                            <p class="excerpt">Lawmakers have introduced a comprehensive bill that would establish federal oversight of artificial intelligence systems, requiring transparency and ethical...</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Ad Banner (Middle) -->
+            <div class="ad-banner middle-banner">
+                <!-- Google AdSense or other ad code would go here -->
+                <img src="images/ad-banner-2.jpg" alt="Advertisement">
+            </div>
+
+            <!-- Category Sections -->
+            <section class="category-section">
+                <div class="section-header">
+                    <h2>Politics</h2>
+                    <div class="view-all"><a href="category.html?cat=politics">View All</a></div>
+                </div>
+                
+                <div class="category-container">
+                    <article class="category-post">
+                        <div class="post-image">
+                            <img src="images/politics-1.jpg" alt="Political news">
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="article.html">Diplomatic Tensions Rise as Trade Negotiations Stall</a></h3>
+                            <p class="post-meta">June 16, 2025</p>
+                        </div>
+                    </article>
+                    
+                    <article class="category-post">
+                        <div class="post-image">
+                            <img src="images/politics-2.jpg" alt="Political news">
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="article.html">New Poll Shows Shifting Voter Preferences Ahead of Elections</a></h3>
+                            <p class="post-meta">June 15, 2025</p>
+                        </div>
+                    </article>
+                    
+                    <article class="category-post">
+                        <div class="post-image">
+                            <img src="images/politics-3.jpg" alt="Political news">
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="article.html">Supreme Court to Hear Landmark Privacy Rights Case</a></h3>
+                            <p class="post-meta">June 14, 2025</p>
+                        </div>
+                    </article>
+                    
+                    <article class="category-post">
+                        <div class="post-image">
+                            <img src="images/politics-4.jpg" alt="Political news">
+                        </div>
+                        <div class="post-content">
+                            <h3><a href="article.html">Local Governments Adopt Innovative Approaches to Homelessness</a></h3>
+                            <p class="post-meta">June 13, 2025</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- More Category Sections would follow the same pattern -->
+            
+            <!-- Newsletter Subscription -->
+            <section class="newsletter">
+                <div class="newsletter-container">
+                    <div class="newsletter-content">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Get the latest news delivered to your inbox daily</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="NewsPortal Logo">
+                        <h3>NewsPortal</h3>
+                    </div>
+                    <p>Delivering accurate, timely news from around the globe since 2010. Our team of dedicated journalists works around the clock to bring you the stories that matter.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col categories">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="category.html?cat=politics">Politics</a></li>
+                        <li><a href="category.html?cat=business">Business</a></li>
+                        <li><a href="category.html?cat=technology">Technology</a></li>
+                        <li><a href="category.html?cat=sports">Sports</a></li>
+                        <li><a href="category.html?cat=entertainment">Entertainment</a></li>
+                        <li><a href="category.html?cat=health">Health</a></li>
+                        <li><a href="category.html?cat=science">Science</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 News Street, Media City, USA</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@newsportal.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2025 NewsPortal. All Rights Reserved.
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Ad Scripts would go here -->
+    <script>
+        // Example ad script
+        // (function() {
+        //     var adScript = document.createElement('script');
+        //     adScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+        //     adScript.async = true;
+        //     document.head.appendChild(adScript);
+        // })();
+    </script>
+</body>
+</html>
